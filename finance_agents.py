@@ -17,7 +17,7 @@ agent = Agent(
      show_tools_calls=True,
      markdown=True,
      instructions = ["Use tables to display data."],
-     debug_mode = True,
+     debug_mode = False,
 )
 
 # Run the agent with a prompt
